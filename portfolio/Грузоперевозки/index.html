@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="script/jquery-3.5.1.min.js"></script>
+  <script src="script/script.js" defer></script>
+  <title>Транспортная компания</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="container content-wrapper">
+        <ul class="header-content-list">
+          <li class="header-content-item">
+            <button class="button language ru">РУС</button>
+          </li>
+          <li class="header-content-item">
+            <button class="button language en">ENG</button>
+          </li>
+          <li class="header-content-item">
+            <button class="button language fr">FR</button>
+          </li>
+        </ul>
+
+        <a class="header-content-link phone" href="tel:88001234567">8 (800) 123-45-67</a>
+        <a class="header-content-link mail" href="mailto:sales@log.ru">sales@log.ru</a>
+      </div>
+    </div>
+
+    <div class="header-content-nav container">
+      <div class="header-content-nav-block">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <a class="header-content-nav-link" href="https://yandex.ru/maps/2/saint-petersburg/house/nevskiy_prospekt_127a/Z0kYdQBkQUMHQFtjfXVzdn1hYQ==/?from=tabbar&ll=30.374861%2C59.927126&sll=37.642770%2C55.706457&source=serp_navig&sspn=0.246506%2C0.081806&z=17" target="_blank">Наши офисы</a>
+      </div>
+
+      <nav class="header-content-nav-navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#service">Услуги</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#compani">О компании</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" id="work" href="#">вакансии</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#contackt">контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-content-fon">
+      <article class="header-content-article container">
+        <h1 class="header-content-title">Грузовые перевозки</h1>
+        <p class="header-content-subtitle">Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов</p>
+      </article>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-one">
+
+      <div class="gray fon-one"></div>
+
+      <div class="container section-one-content-one">
+        <article class="section-one-article flex-wrapper">
+          <span class="border"></span>
+          <h2 class="h2">грузоперевозки
+            по европе
+          </h2>
+          <p class="section-one-article-text">Страны Евросоюза, а также Украина,
+            Белоруссия со всеми документами.
+          </p>
+          <a class="section-one-article-link" href="#">ПОДРОБНЕЕ</a>
+        </article>
+
+        <div class="section-one-img flex-wrapper">
+          <img class="section-one-img1" src="img/img3.png" alt="Грузовик">
+        </div>
+
+        <div class="section-one-content-two flex-wrapper">
+          <button class="button next-button">след</button>
+
+          <button class="button back-button">назад</button>
+        </div>
+      </div>
+
+      <div class="gray fon-two"></div>
+    </section>
+
+    <section class="section-two">
+      <div class="kalkulator container">
+        <span class="border"></span>
+        <h2 class="h2">Рассчитать стоимость</h2>
+
+        <div class="wrapper-content-section-two">
+          <div class="wrapper-calculation">
+            <span>Цена за километр - 40 руб</span>
+            <label class="label-vvod" for="schet">Введите расстояние в километрах</label>
+            <input class="vvod" id="schet" type="number" placeholder="Введите расстояние в километрах">
+
+
+            <button class="raschet">Рассчет</button>
+          </div>
+
+          <div class="wrapper-result">
+            <p class="text-result">Результат:</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-three container" id="service">
+      <span class="border"></span>
+      <h2 class="h2">Услуги</h2>
+
+      <ul class="section-three-list">
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+        <li class="section-three-item">
+          <a class="section-three-link" href="#">
+            <div class="section-three-fon"></div>
+            <p class="section-three-text">Авиаперевозки</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section-four container" id="compani">
+      <div class="section-four-position">
+        <article class="section-one-article flex-wrapper">
+          <span class="border"></span>
+          <h2 class="h2">О компании</h2>
+          <p class="section-one-article-text">Lorem Ipsum - это текст-
+            "рыба", часто используемый в печати и вэб-дизайне.
+            Lorem Ipsum является стандартной "рыбой" для текстов
+            на латинице с начала XVI века.
+            В то время некий безымянный печатник создал большую
+            коллекцию размеров и форм шрифтов, используя
+            Lorem Ipsum для распечатки образцов.
+            Lorem Ipsum не только успешно пережил без заметных
+            изменений пять веков, но
+            и перешагнул в электронный дизайн.
+          </p>
+        </article>
+
+        <div class="section-four-wrapper">
+          <ul class="section-four-list">
+            <li class="section-four-item">
+              48
+              <span class="section-four-text">офисов</span>
+              <span class="section-four-text-two">В европе и СНГ</span>
+            </li>
+            <li class="section-four-item">
+              361
+              <span class="section-four-text">грузовиков</span>
+              <span class="section-four-text-two">Volvo, Scania</span>
+            </li>
+            <li class="section-four-item">
+              <img class="section-four-item-img" src="img/img2.jpg" width="100% alt="Грузовой автомобиль">
+            </li>
+            <li class="section-four-item">
+              <img class="section-four-item-img" src="img/img2.jpg" width="100% alt="Грузовой автомобиль" width="100%">
+            </li>
+            <li class="section-four-item">
+              1500
+              <span class="section-four-text">сотрудников</span>
+              <span class="section-four-text-two">профессионалов</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section-four-fon"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-navogator">
+      <img src="img/maps.jpg" width="100%" alt="Адрес на карте">
+    </div>
+
+   <div class="footer-wrapper-fon">
+     <div class="footer-content container">
+      <div class="footer-wrapper">
+        <img class="logo" src="img/footer-logo.png" alt="logo">
+      </div>
+
+      <address class="footer-address" id="contackt">
+        <div class="footer-addres-wrapper">
+          <span class="footer-address-ip">123456, Санкт-Петербург, Невский пр-кт 127</span>
+          <a class="footer-mail" href="mailto:sales@log.ru">sales@log.ru</a>
+        </div>
+
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a class="footer-address-item-link" href="tel:+78123445665">+7 (812) 344-56-65</a>
+          </li>
+          <li class="footer-address-item">
+            <a class="footer-address-item-link" href="tel:+78123445665">+7 (812) 344-56-65</a>
+          </li>
+        </ul>
+      </address>
+
+      <aside class="footer-aside">
+        <a class="footer-aside-link" href="#">Разработано - D-E-N.ru</a>
+      </aside>
+     </div>
+   </div>
+  </footer>
+</body>
+</html>

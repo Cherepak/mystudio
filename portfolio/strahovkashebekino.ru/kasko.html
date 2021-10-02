@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/form.js" defer></script>
+    <title>Автострахование</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="display--flex container padding">
+        <div class="logo">
+          <img class="logo__image" src="img/logo.png" alt="Логотип">
+          <h1 class="title">ООО "Эталон"</h1>
+        </div>
+
+        <div class="header__wrapper-time fon">
+          <p class="header__text">Время работы
+            <br>
+            <time>8:00 - 18:00</time>
+            <br> Без выходный
+          </p>
+        </div>
+
+        <address class="header__address fon">
+            <ul class="header__list-address">
+              <li class="header__item-address">
+                <a class="link" href="tel:89040889229">+7 (904) 088-92-29</a>
+                <p class=""> г. Шебекино, ТЦ Спутник, модуль 102</p>
+              </li>
+
+              <li class="header__item-address">
+                <a class="link" href="tel:89511303003">+7 (951) 130-30-03</a>
+                <p class=""> г. Шебекино, ул. Московская д.45 (район рынка)</p>
+              </li>
+          </ul>
+        </address>
+
+        <form class="header__form" id="form">
+          <input class="header__massage" type="text" id="polz_tel" name="polz_tel" placeholder="Введите Ваш номер">
+          <label class="sr-only" for="#">Введите Ваш номер </label>
+
+          <input class="header__massage" type="text" id="polz_name" name="polz_name" placeholder="Введите Ваше Имя">
+          <label class="sr-only" for="#">Введите Ваше Имя</label>
+
+          <input class="call" type="submit" value="Заказать звонок">
+          <label class="sr-only" for="#">Заказать звонок</label>
+
+          <p class="check-text" required>Нажимая на кнопку "Заказать звонок" Вы даёте согласие о обработке
+            <a class="check-text__link " href="personalnieDanye.html">персональных данных.</a>
+          </p>
+          <div class="form_result">
+            
+          </div>
+        </form>
+      </div>
+
+      <div class="gradient">
+        <nav class="container">
+          <ul class="header__list-nav">
+            <li class="header__item-nav">
+              <a class="link" href="index.html">Главная</a>
+            </li>
+
+            <li class="header__item-nav insurance ">
+              <a class="link arrow" id="insurance">Страхование</a>
+
+              <ul class="insurance__list ">
+                <li class="insurance__item">
+                  <a class="link" href="osago.html">ОСАГО</a>
+                </li>
+                <li class="insurance__item">
+                  <a class="link" href="kasko.html">КАСКО</a>
+                </li>
+                <li class="insurance__item">
+                  <a class="link" href="dosago.html">ДСАГО</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__item-nav service">
+              <a class="link arrow" id="service">Дополнительные услуги</a>
+
+              <ul class="service__list">
+                <li class="service__item">
+                  <a class="link" href="contract.html">Договора купли-продажи</a>
+                </li>
+
+                <li class="service__item">
+                  <a class="link" href="application.html">Заявления на регистрацию ТС</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__item-nav">
+              <a class="link" href="dubleNumber.html">Дубликаты гос. номеров</a>
+            </li>
+
+            <!-- <li class="header__item-nav">
+              <a class="link" href="#">Отзывы</a>
+            </li> -->
+
+
+            <li class="header__item-nav">
+              <a class="link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <img class="main__image-car" src="img/car.jpg" alt="">
+
+      <section class="main__info padding">
+        <h1 class="sr-only">Страховой полис - КАСКО</h1>
+
+        <div class="container">
+          <h1 class="main__info-h1">Страховой полис - КАСКО</h1>
+
+        <p class="main__info-text">
+          КАСКО — комплексное страхование средств
+          транспорта (автомобилей, судов, самолётов, вагонов) от ущерба,
+          хищения или угона.
+          Система страхования КАСКО основывается на
+          условиях,
+          установленных с одной стороны – законодательством,
+          с другой – конкретной страховой компанией.
+          Объект страхования – имущественные интересы, которые связаны
+          с рисками повреждения или потери.
+          Для оформления КАСКО необходимы следующие документы:
+          <!-- https://strahovanie.guru/kasko -->
+          <ul class="document__list">
+            <li class="document__item">
+              паспорт страхователя;
+            </li>
+            <li class="document__item">
+              паспорт транспортного средства;
+            </li>
+            <li class="document__item">
+              водительское удостоверение;
+            </li>
+            <li class="document__item">
+              доверенность, если договор заключает представитель владельца машины.
+            </li>
+          </ul>
+          <p class="main__info-text">
+            Чтобы застраховать автомобиль, агентство может потребовать и
+            дополнительные документы для оценки аккуратности вождения и
+            ответственности страховщика. Проверка может способствовать снижению
+            стоимости полиса.
+          </p>
+          Компании часто требуют:
+          <ul class="document__list">
+            <li class="document__item">
+              Справку о безаварийном управлении транспортом.
+            </li>
+            <li class="document__item">
+              Договор по кредиту, если машина приобретена в кредит.
+            </li>
+            <li class="document__item">
+              Технический паспорт, если была изменена конструкция автомобиля.
+            </li>
+            <li class="document__item">
+              Документы, подтверждающие стоимость противоугонных средств.
+            </li>
+            <li class="document__item">
+              Кредитный договор, если автомашина взята в кредит.
+            </li>
+            <li class="document__item">
+              Правоустанавливающие документы для юридических лиц.
+            </li>
+          </ul>
+        </p>
+        </div>
+      </section>
+
+      <section class="main__cost padding">
+        <h2 class="sr-only">Стоимость страховки</h2>
+
+        <div class="container">
+          <h2 class="main__cost-h2">Стоимость полиса КАСКО зависит от:</h2>
+
+          <ul class="document__list">
+            <li class="document__item">
+              Возраст водителя.
+              <span class="document__span">
+                Возраст до 21 года и после 65 подразумевает
+                повышающий коэффициент (статистка показывает, что
+                данный возраст коррелирует с высокими показателями аварийности
+                по вине водителей).
+              </span>
+            </li>
+            <li class="document__item">
+              Год выпуска ТС.
+              <span class="document__span">
+                Чем старше автомобиль — 
+                тем дороже страховка. Автомобили
+                старше 10 лет, как правило, не страхуются.
+                И наоборот, страхование нового автомобиля — 
+                обязательное условие по большинству автокредитов.
+              </span>
+            </li>
+            <li class="document__item">
+              Стаж водителя.
+              <span class="document__span">
+                Водительский стаж является понижающим стоимость страховки фактором.
+                Кроме того, при благополучной страховой истории (безаварийное вождение)
+                по ОСАГО некоторые страховщики предоставляют скидку по КАСКО.
+              </span>
+            </li>
+            <li class="document__item">
+              Марка, модель, класс ТС.
+              <span class="document__span">
+                Стоимость страховки от ущерба рассчитывается из средней стоимости
+                ремонта для автомобиля данной марки и модели, стоимости запчастей и
+                пр. Статистика угонов также показывает, какие марки наиболее интересны
+                для криминала, соответственно, стоимость полиса КАСКО для таких
+                автомобилей будет выше.
+              </span>
+            </li>
+            <li class="document__item">
+              Противоугонная система.
+              <span class="document__span">
+                Чем технологичнее противоугонная система —
+                тем ниже стоимость страхования риска хищения;
+                для дорогих автомобилей спутниковая противоугонная
+                система может быть обязательным условием для заключения
+                договора КАСКО.
+              </span>
+            </li>
+            <li class="document__item">
+              Вид выплаты.
+              <span class="document__span">
+                Агрегатные — страховая сумма
+                уменьшается на величину выплаты по каждому страховому случаю.
+                Неагрегатные — страховая сумма не уменьшается с каждой выплатой
+                независимо от количества убытков (при этом стоимость полиса КАСКО
+                вырастает).
+              </span>
+            </li>
+            <li class="document__item">
+              Франшиза
+              <span class="document__span">
+                Включение в договор франшизы значительно понизит стоимость
+                полиса КАСКО. Франшиза — доля вашего участия в риске, некая
+                сумма, которая не будет выплачена в результате ущерба.
+                Например, при франшизе 5 тыс. руб. и ущербе 35 тыс. руб.
+                страхователь сможет получить на руки разницу между страховым
+                возмещением и франшизой в размере 30 тыс. руб. Франшиза выгодна
+                при крупных страховых выплатах.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+    <script
+     type="text/javascript"
+     charset="utf-8"
+     async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af4aa542b49ca1e2954655a4ce6cdd3b38916e700653f99c0b2359242a5beed51&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true">
+    </script>
+
+     <div class="footer__wrapper container padding">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="link" href="index.html">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="kasko.html">КАСКО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="osago.html">ОСАГО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="dosago.html">ДОСАГО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="contract.html">Договора купли-продажи</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="application.html">Заявления на регистрацию</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="dubleNumber.html">Дубликаты гос. номеров</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="#contact">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer__info">
+        <li>ООО "Эталон"</li>
+        <li>ИНН: 3123348040</li>
+        <li>ОГРН: 1143123012361</li>
+        <li>КПП: 312301001</li>
+        <li>ОКТМО: 1470100001</li>
+        <li>ОКПО: 22260397</li>
+        <li>ОКАТО: 14401370000</li>
+        <li>ОКФС: 16</li>
+        <li>ОКОПФ: 12165</li>
+        <li>Страховка Шебекино @2010-2021</li>
+      </ul>
+
+      <address class="header__address fon" id="contact">
+        <ul class="header__list-address">
+          <li class="header__item-address">
+            <a class="link" href="tel:89040889229">+7 (904) 088-92-29</a>
+            <p class=""> г. Шебекино, ТЦ Спутник, модуль 102</p>
+          </li>
+
+          <li class="header__item-address">
+            <a class="link" href="tel:89511303003">+7 (951) 130-30-03</a>
+            <p class=""> г. Шебекино, ул. Московская д.45 (район рынка)</p>
+          </li>
+
+          <li class="header__item-address">
+            <a class="link" href="tel:89511303003">+7 (951) 761-13-31</a>
+            <p class="">г. Шебекино, ул. Московская 16 а</p>
+          </li>
+      </ul>
+    </address>
+     </div>
+    </footer>
+  </body>
+</html>
+

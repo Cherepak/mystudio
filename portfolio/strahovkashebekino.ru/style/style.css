@@ -1,0 +1,696 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
+
+
+   body {
+    min-width: 320px;
+    margin: 0;
+    background-color: #fff ;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #000000 ;
+   }
+
+   body.modal-active {
+    overflow: hidden;
+   }
+
+   img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+   }
+
+   a {
+    text-decoration: none;
+    color: inherit;
+   }
+
+   a:focus {
+    outline: none;
+   }
+
+
+
+   p {
+    margin: 0;
+   }
+
+  .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-left: 15px;
+  }
+
+
+  .custom-link {
+    border-bottom: 1px solid #fff;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .padding {
+    padding: 30px 5px;
+  }
+
+  h1, h2, h3 {
+    margin: 0;
+  }
+
+.logo__image {
+    width: 150px;
+}
+  .title {
+    font-size: 24px;
+    color: #4162da;
+  }
+
+  /* header */
+
+
+
+  .display--flex {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+  }
+
+
+  .fon {
+    padding-left: 70px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45px;
+  }
+
+  .header__wrapper-time {
+    background-image: url("../img/time.png");
+  }
+
+  .header__text {
+    text-align: center;
+  }
+
+  .header__address {
+    background-image: url("../img/adress.png");
+  }
+
+  .header__item-address {
+    padding-bottom: 10px;
+  }
+
+  .header__item-address:not(:last-child) {
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+  }
+
+  .header__form {
+    width: 200px;
+  }
+
+  .header__massage {
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 5px 5px;
+  }
+
+  .header__list-address {
+    margin-right: 20px;
+  }
+
+  .call {
+    color: #fff;
+    background-color: #4162da;
+    border: none;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  .check-text__link {
+    border-bottom: 1px solid #000;
+  }
+
+  .gradient {
+    padding: 20px 0;
+    background: linear-gradient(90deg, rgba(65,98,218,1) 0%, rgba(51,11,180,1) 100%);
+  }
+
+  .header__list-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .header__item-nav {
+    position: relative;
+  }
+
+
+  .insurance__list {
+    display: none;
+    position: absolute;
+    background-color: #4162da;
+    padding: 10px 40px;
+  }
+
+  .open {
+    display: block;
+  }
+
+
+  .service__list  {
+    display: none;
+    position: absolute;
+    background-color: #4162da;
+    padding: 10px 40px;
+  }
+
+  .service__item {
+    margin-bottom: 10px;
+  }
+
+  .arrow {
+    padding-right: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../img/arrow.png")
+  }
+
+  .link {
+    display: block;
+  }
+
+
+/* главная вкладка */
+
+
+
+
+  /* main */
+
+
+  .main__image-car {
+    display: block;
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+  }
+
+  /* .section-main  */
+
+  .main__text {
+    font-size: 18px;
+  }
+
+
+  /* general */
+  .main__general {
+    background-color: #4162da;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+
+  /* insurance */
+
+
+  .h3 {
+    font-weight: 20px;
+  }
+
+  .main__list-insurance {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .main__item-insurance {
+    width: 400px;
+  }
+
+  .color__purple {
+    color: #4162da;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+  .main__wrapper {
+    height: 120px;
+  }
+
+  .main__question {
+    display: block;
+    margin: 15px 0;
+    font-weight: 900;
+  }
+
+  .main__text-insurance {
+    line-height: 30px;
+  }
+
+  /* .comment  */
+
+  .main__comment {
+    background-color: #4162da;
+  }
+  /* work  */
+
+  .main__work {
+    background-color: #4162da;
+    color: #fff;
+  }
+
+  .main__me-work {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .main__work-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+
+  .main__work-item {
+    width: 250px;
+  }
+
+  .main__work-span {
+    display: block;
+    margin-bottom:  15px;
+  }
+
+  .main__work-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+
+
+  /* footer */
+
+  .footer {
+    background-color: #4162da;
+    color: #fff;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer__info {
+    font-weight: 900;
+  }
+  .footer .fon {
+    padding: 0;
+    background: none;
+  }
+
+
+  /* Вкладка страхование */
+
+  .main__info {
+    line-height: 30px;
+  }
+
+  .main__info-h1 {
+    margin-bottom: 20px;
+  }
+
+  .main__info-text {
+    margin-top: 20px
+  }
+
+  .document__list {
+    margin-top: 20px;
+    list-style: circle;
+    font-weight: 900;
+  }
+
+  .document__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .main__cost {
+    background-color: #4162da;
+    color: #fff;
+  }
+
+  .document__span {
+    display: block;
+    font-weight: 300;
+  }
+
+  .document__span .document__list {
+    padding-left: 40px;
+    list-style: decimal;
+  }
+
+
+
+/* Вкладка дубликаты гос номеров  */
+
+  .gosNumber__text {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+  .gosNumber__span {
+    font-weight: 900;
+  }
+
+  /* персональные данные */
+
+  .personalDanye {
+    font-size: 20px;
+  }
+
+  /* форма */
+
+  .form {
+    background-color:#fff;
+  }
+
+  .form__massage {
+    padding: 10px 30px;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  .form__massage:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .form__call {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #4162da;
+    color: #fff;
+  }
+
+  .form .check-text {
+    margin-top: 20px;
+  }
+  /* эффекты */
+
+  .link {
+    border-bottom: 1px solid #fff0 ;
+  }
+
+  .call:hover,
+  .call:focus,
+  .form__call:hover,
+  .form__call:focus {
+    outline: none;
+    transition: all 300ms;
+    background-color: #000;
+    cursor: pointer;
+  }
+
+  .link:hover,
+  .link:focus {
+    color: #000;
+    border-bottom: 1px solid #000 ;
+    outline: none;
+    transition: all 300ms;
+  }
+
+
+/* mobil */
+
+@media(max-width: 1440px){
+  body {
+    font-size: 12px;
+  }
+
+  .call {
+    width: 85%;
+  }
+
+  .fon {
+    padding-left: 50px;
+  }
+
+  .container {
+    width: 1024px;
+  }
+
+  .header__list-nav {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 1024px){
+  body {
+    font-size: 12px;
+  }
+
+  .call {
+    width: 85%;
+  }
+
+  .fon {
+    padding-left: 50px;
+  }
+
+  .header__address {
+    width: 250px;
+  }
+
+  .container {
+    width: 768px;
+  }
+
+  .header__list-nav {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 768px){
+  .call {
+    margin-top:10px ;
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .logo__image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .fon {
+    padding-left: 0px;
+    background-image: none;
+  }
+
+  .header__address {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .header__list-address {
+    margin: 30px 0;
+  }
+
+  .header__form {
+    margin: 0 auto;
+  }
+
+  .header__massage {
+    width: 100%;;
+  }
+
+  .container {
+    width: 415px;
+  }
+
+  .header__list-nav {
+    display: block;
+  }
+
+  .header__item-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .arrow {
+    padding-right: 0;
+    background-position: 300px;
+  }
+
+  .display--flex {
+    display: block;
+  }
+
+  .main__h1 {
+    text-align: center;
+  }
+
+  .main__text {
+    text-align: center;
+  }
+
+  .main__h2 {
+    text-align: center;
+  }
+
+  .main__wrapper {
+    height: 160px;
+  }
+
+  .main__text-insurance {
+    line-height: 20px;
+  }
+
+  .main__item-insurance {
+    width: 125px;
+  }
+
+  .main__me-work {
+    font-size: 25px;
+  }
+
+  .main__work-list {
+    font-size: 15px;
+  }
+
+  .main__work-text {
+    font-size: 12px;
+  }
+
+  .main__work-item {
+    width: 130px;
+  }
+  .form__massage {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .main__text-insurance {
+    font-size: 10px;
+  }
+
+  .form__call  {
+    display: block;
+    margin: 10px auto;
+
+  }
+  .insurance__list {
+    position: static;
+  }
+  .service__list {
+    position: static;
+  }
+}
+
+@media(max-width: 425px){
+
+  .container {
+    width: 315px;
+  }
+  .main__me-work {
+    font-size: 20px;
+  }
+
+  .color__purple {
+    font-size: 15px;
+  }
+
+  .main__wrapper {
+    height: 200px;
+  }
+
+
+  .main__item-insurance {
+    width: 100px;
+  }
+
+  .main__text--insurance {
+    font-size: 10px;
+  }
+
+  .main__work-span {
+    font-size: 12px;
+  }
+
+  .main__work-text {
+    font-size: 10px;
+  }
+
+  .arrow {
+    background-position: 245px;
+  }
+  .main__work-item {
+    width: 100px;
+  }
+
+  .footer__list {
+    font-size:10px;
+  }
+
+  .footer__info {
+    font-size:10px;
+  }
+
+  .header__list-address {
+    font-size:10px;
+  }
+}

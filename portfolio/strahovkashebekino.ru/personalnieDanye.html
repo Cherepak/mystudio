@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/form.js" defer></script>
+    <title>Автострахование</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="display--flex container padding">
+        <div class="logo">
+          <img class="logo__image" src="img/logo.png" alt="Логотип">
+          <h1 class="title">ООО "Эталон"</h1>
+        </div>
+
+        <div class="header__wrapper-time fon">
+          <p class="header__text">Время работы
+            <br>
+            <time>8:00 - 18:00</time>
+            <br> Без выходный
+          </p>
+        </div>
+
+        <address class="header__address fon">
+            <ul class="header__list-address">
+              <li class="header__item-address">
+                <a class="link" href="tel:89040889229">+7 (904) 088-92-29</a>
+                <p class=""> г. Шебекино, ТЦ Спутник, модуль 102</p>
+              </li>
+
+              <li class="header__item-address">
+                <a class="link" href="tel:89511303003">+7 (951) 130-30-03</a>
+                <p class=""> г. Шебекино, ул. Московская д.45 (район рынка)</p>
+              </li>
+          </ul>
+        </address>
+
+        <form class="header__form" id="form">
+          <input class="header__massage" type="text" id="polz_tel" name="polz_tel" placeholder="Введите Ваш номер">
+          <label class="sr-only" for="#">Введите Ваш номер </label>
+
+          <input class="header__massage" type="text" id="polz_name" name="polz_name" placeholder="Введите Ваше Имя">
+          <label class="sr-only" for="#">Введите Ваше Имя</label>
+
+          <input class="call" type="submit" value="Заказать звонок">
+          <label class="sr-only" for="#">Заказать звонок</label>
+
+          <p class="check-text" required>Нажимая на кнопку "Заказать звонок" Вы даёте согласие о обработке
+            <a class="check-text__link " href="#">персональных данных.</a>
+          </p>
+          <div class="form_result">
+            
+          </div>
+        </form>
+      </div>
+
+      <div class="gradient">
+        <nav class="container">
+          <ul class="header__list-nav">
+            <li class="header__item-nav">
+              <a class="link" href="index.html">Главная</a>
+            </li>
+
+            <li class="header__item-nav insurance">
+              <a class="link arrow" id="insurance">Страхование</a>
+
+              <ul class="insurance__list ">
+                <li class="insurance__item">
+                  <a class="link" href="osago.html">ОСАГО</a>
+                </li>
+                <li class="insurance__item">
+                  <a class="link" href="kasko.html">КАСКО</a>
+                </li>
+                <li class="insurance__item">
+                  <a class="link" href="dosago.html">ДСАГО</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__item-nav service">
+              <a class="link arrow" id="service">Дополнительные услуги</a>
+
+              <ul class="service__list">
+                <li class="service__item">
+                  <a class="link" href="#">Договора купли-продажи</a>
+                </li>
+
+                <li class="service__item">
+                  <a class="link" href="#">Заявления на регистрацию ТС</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__item-nav">
+              <a class="link" href="dubleNumber.html">Дубликаты гос. номеров</a>
+            </li>
+
+            <!-- <li class="header__item-nav">
+              <a class="link" href="#">Отзывы</a>
+            </li> -->
+
+
+            <li class="header__item-nav">
+              <a class="link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main padding">
+        <div class="container personalDanye" id="main">
+          <p>
+            Пользовательское соглашение
+Я, субъект персональных данных, в соответствии с Федеральным законом от 27 июля 2006 года № 152 «О персональных данных» предоставляю Обществу с ограниченной ответственностью  «Эталон»
+(далее - Оператор), расположенному по адресу:г. Белгород, ул. Макаренко, д.12а, оф.7, согласие на обработку персональных данных, указанных мной в
+форме на сайте в сети «Интернет», владельцем которого является Оператор.
+<br>
+<br>
+
+Под персональными данными субъекта персональных данных понимается нижеуказанная общая информация: ФИО, адрес электронной почты и номер телефона.
+<br>
+<br>
+
+Принимая настоящее Соглашение, я выражаю свою заинтересованность и полное согласие, что обработка персональных данных может включать в себя следующие действия:
+сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, передачу (предоставление, доступ),
+блокирование, удаление, уничтожение, осуществляемых как с использованием средств автоматизации (автоматизированная обработка), так и
+без использования таких средств (неавтоматизированная обработка).
+<br>
+<br>
+
+Я понимаю и соглашаюсь с тем, что предоставленная информация, является полной, точной и достоверной; при предоставлении информации
+не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация
+заполнена мною в отношении себя лично;
+информация не относится к государственной, банковской и/или
+коммерческой тайне, информация не относится к информации о расовой и/или национальной принадлежности, политических взглядах,
+религиозных или философских убеждениях, не относится к информации о состоянии здоровья и интимной жизни.
+<br>
+<br>
+Я понимаю и соглашаюсь с тем, что Оператор не проверяет достоверность персональных данных, предоставляемых мной,
+и не имеет возможности оценивать мою дееспособность и исходит из того, что я предоставляю достоверные персональные данные
+и поддерживаю такие данные в актуальном состоянии.
+<br>
+<br>
+Я понимаю и соглашаюсь с тем, что Оператор имеет право направлять мне уведомления о новых продуктах и услугах,
+специальных предложениях и различных событиях, посредством отправки электронных писем, СМС сообщений, сообщений в мессенджерах и звонков.
+<br>
+<br>
+Согласие действует по достижении целей обработки или в случае утраты необходимости в достижении этих целей, если иное не предусмотрено федеральным законом.
+<br>
+<br>
+
+Согласие может быть отозвано мною в любое время на основании моего письменного заявления.
+          </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+
+     <div class="footer__wrapper container padding">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="link" href="index.html">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="kasko.html">КАСКО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="osago.html">ОСАГО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="dosago.html">ДОСАГО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="contract.html">Договора купли-продажи</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="application.html">Заявления на регистрацию</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="dubleNumber.html">Дубликаты гос. номеров</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="#contact">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer__info">
+        <li>ООО "Эталон"</li>
+        <li>ИНН: 3123348040</li>
+        <li>ОГРН: 1143123012361</li>
+        <li>КПП: 312301001</li>
+        <li>ОКТМО: 1470100001</li>
+        <li>ОКПО: 22260397</li>
+        <li>ОКАТО: 14401370000</li>
+        <li>ОКФС: 16</li>
+        <li>ОКОПФ: 12165</li>
+        <li>Страховка Шебекино @2010-2021</li>
+      </ul>
+
+      <address class="header__address fon" id="contact">
+        <ul class="header__list-address">
+          <li class="header__item-address">
+            <a class="link" href="tel:89040889229">+7 (904) 088-92-29</a>
+            <p class=""> г. Шебекино, ТЦ Спутник, модуль 102</p>
+          </li>
+
+          <li class="header__item-address">
+            <a class="link" href="tel:89511303003">+7 (951) 130-30-03</a>
+            <p class=""> г. Шебекино, ул. Московская д.45 (район рынка)</p>
+          </li>
+
+          <li class="header__item-address">
+            <a class="link" href="tel:89511303003">+7 (951) 761-13-31</a>
+            <p class="">г. Шебекино, ул. Московская 16 а</p>
+          </li>
+      </ul>
+    </address>
+     </div>
+    </footer>
+  </body>
+</html>
+

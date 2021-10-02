@@ -1,0 +1,432 @@
+
+html {
+  box-sizing: border-box; /*Применяется для изменения алгоритма расчёта ширины и высоты элемента.*/
+}
+ *,
+ *::before,
+ *::after {
+  box-sizing: inherit; /*наследует значение родителя*/
+ }
+
+body {
+  min-width: 1920px; /*Минимальная ширина*/
+  font-family: 'Roboto', sans-serif;
+  margin: 0; /*Внешний отступ*/
+  background-color: #fff ;/*Цвет фона*/
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+ }
+
+
+
+img {
+  max-width: 100%; /*Максимальная ширина*/
+  height: auto;
+  object-fit: contain;
+}
+
+
+a {
+  text-decoration: none; /*Оформление текста.Отменяет все эффекты, в том числе и подчёркивание у ссылок, которое задано по умолчанию.*/
+  color: inherit; /*Цвет текста наследуется*/
+}
+
+a:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.h2 {
+  margin: 0 0 38px 0;
+  font-size: 24px;
+}
+
+.h3 {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #828282;
+}
+
+.main {
+  background-color: #E5E5E5;
+}
+
+/* header */
+
+.header-ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 17px 0;
+  width: 460px;
+  margin: 0 auto;
+}
+
+.header-container {
+  background-color: #E5E5E5;
+}
+
+.header-one-link {
+  font-size: 14px;
+}
+
+.header-li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-two {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-img {
+  margin-right: 20px;
+}
+
+.logo-text {
+  font-size: 36px;
+  color: #F13C6E;
+  margin-right: 172px;
+}
+
+.form {
+  position: relative;
+  margin-right: 115px;
+}
+
+.serch {
+  width: 250px;
+  height: 40px;
+  background: #EFEFEF;
+  border: none;
+  border-radius: 40px;
+}
+
+.lupa {
+  top: 10px;
+  left: 20px;
+  position: absolute;
+  background: transparent url('../img/lupa.png') no-repeat;
+  background-size: cover;
+  border: 0;
+  padding: 10px;
+}
+
+.tel {
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.callback {
+  font-size: 14px;
+  padding: 12px 27px;
+  border: 2px solid #F13C6E;
+  border-radius: 40px;
+  background-color: #fff;
+}
+
+.header-two-ul {
+  width: 600px;
+}
+
+.header-two-li {
+  margin-right: 20px;
+}
+
+.header-two-link {
+  font-size: 16px;
+}
+
+/* супер кресло */
+
+.super-armchair {
+  background-color: #F13C6E;
+  color: #fff;
+  position: relative;
+}
+
+.a {
+  display: flex;
+
+}
+
+.super-armchair-article {
+  width: 308px;
+  padding: 166px 0;
+  /* position: relative; */
+}
+
+.h1 {
+  font-size: 48px;
+  margin: 0 0 50px 0;
+}
+
+.super-armchair-a {
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 12px 26px;
+  border-radius: 40px;
+  margin: 62px 0 0 0;
+}
+
+.super-armchair-one-div-fon {
+  margin: 0 0 0 320px;
+  height: 100%;
+  background: url('../img/Ellipse.png') no-repeat;
+  width: 858px;
+  position: absolute;
+}
+
+.super-armchair-two-div-fon {
+  top: 0px;
+  height: 100%;
+  width: 680px;
+  position: absolute;
+  background: url('../img/Ellipse-1.png') no-repeat;
+  right: 84px;
+}
+
+.img-super-armchair {
+  width: 550px;
+  right: 50px;
+  margin-left: 80px;
+}
+
+/* специальное предложение */
+
+.special-offer {
+  margin-top: 80px;
+}
+
+.special-offer-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.special-offer-li {
+  background: url('../img/4.png') no-repeat 65px 20px;
+  padding: 211px 30px 25px 30px;
+  width: 255px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.special-offer-price {
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.special-offer-link {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 9px 39px;
+  color: #fff;
+  background-color: #F13C6E;
+  border-radius: 40px;
+}
+
+.special-offer-li:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* бонус */
+
+.bonus {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.convert {
+  background: url('../img/group.png') no-repeat 340px center;
+}
+
+.car {
+  background: url('../img/car.png') no-repeat 310px center;
+}
+
+.bonus-article {
+  padding: 35px 250px 35px 40px;
+  background-color: #F13C6E;
+  width: 540px;
+
+}
+
+.bonus-article:not(:last-child) {
+  margin-right: 30px;
+}
+
+.bonus-h2 {
+  font-size: 18px;
+  margin: 0 0 38px 0;
+}
+
+.bonus-text {
+
+}
+
+.bonus-form {
+  width: 205px;
+}
+
+.bonus-input {
+  margin-top: 25px;
+  height: 35px;
+  padding: 0 10px 0 15px;
+  border-radius: 40px;
+  border: 0;
+}
+
+.bonus-article-img {
+  margin-top: 25px;
+  display: inline-block;
+  padding: 9px 28px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+}
+/* хз */
+
+.hz {
+  margin-top: 100px;
+}
+
+.hz-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hz-li {
+  padding: 35px 60px;
+  border: 1px solid #EFEFEF;
+  width: 277px;
+  background-color: #fff;
+}
+/* недавно просмотренные */
+
+.recently-viewed {
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+
+/* footer */
+
+.footer {
+  padding: 60px 0 0 0;
+}
+.footer-fon-one {
+  border-bottom: 1px solid #828282;
+}
+
+.footer-one-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+.footer-nav {
+  margin-top: 25px;
+}
+
+.footer-nav:not(:last-child) {
+  margin-right: 132px;
+}
+
+.footer-li-link:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.footer-link-one {
+  color: #828282;
+}
+.address{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 37px 0;
+  align-items: center;
+}
+
+.ul-social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 205px;
+  align-items: center;
+}
+.youtobe {
+  background: url('../img/you.png') no-repeat;
+}
+
+.vk {
+  background: url('../img/vk.png') no-repeat;
+}
+
+.facebook {
+  background: url('../img/face.png') no-repeat;
+}
+
+.instagram {
+  background: url('../img/instagram.png') no-repeat;
+}
+
+.li-social {
+  padding: 14px;
+}
+
+.li-social:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link-social {
+
+}
+
+.footer-text {
+  margin-right: 105px;
+}
+
+.footer-tel {
+  margin-right: 60px;
+}
+
+.div-last {
+  background-color: #EFEFEF;
+  color: #828282;
+  padding: 25px 0;
+  font-size: 12px;
+}
+
+.footer-span:not(:last-child) {
+  margin-right: 342px;
+}

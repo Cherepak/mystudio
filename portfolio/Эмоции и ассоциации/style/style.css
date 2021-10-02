@@ -1,0 +1,82 @@
+
+  @font-face {
+  font-family: 'Nunito Sans';
+  src: url('../fonts/Nunitosansregular.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('../fonts/Nunitosansbold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+html {
+  box-sizing: border-box; /*Применяется для изменения алгоритма расчёта ширины и высоты элемента.*/
+}
+ *,
+ *::before,
+ *::after {
+  box-sizing: inherit; /*наследует значение родителя*/
+ }
+
+body {
+  min-width: 1929px; /*Минимальная ширина*/
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0; /*Внешний отступ*/
+  background-color: #fff ;/*Цвет фона*/
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000;
+ }
+
+
+
+img {
+  max-width: 100%; /*Максимальная ширина*/
+  height: auto;
+  object-fit: contain;
+}
+
+
+a {
+  text-decoration: none; /*Оформление текста.Отменяет все эффекты, в том числе и подчёркивание у ссылок, которое задано по умолчанию.*/
+  color: inherit; /*Цвет текста наследуется*/
+}
+
+a:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.container {
+  width: 1168px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}

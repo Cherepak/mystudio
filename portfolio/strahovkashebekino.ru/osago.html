@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/form.js" defer></script>
+    <title>Автострахование</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="display--flex container padding">
+        <div class="logo">
+          <img class="logo__image" src="img/logo.png" alt="Логотип">
+          <h1 class="title">ООО "Эталон"</h1>
+        </div>
+
+        <div class="header__wrapper-time fon">
+          <p class="header__text">Время работы
+            <br>
+            <time>8:00 - 18:00</time>
+            <br> Без выходный
+          </p>
+        </div>
+
+        <address class="header__address fon">
+            <ul class="header__list-address">
+              <li class="header__item-address">
+                <a class="link" href="tel:89040889229">+7 (904) 088-92-29</a>
+                <p class=""> г. Шебекино, ТЦ Спутник, модуль 102</p>
+              </li>
+
+              <li class="header__item-address">
+                <a class="link" href="tel:89511303003">+7 (951) 130-30-03</a>
+                <p class=""> г. Шебекино, ул. Московская д.45 (район рынка)</p>
+              </li>
+          </ul>
+        </address>
+
+        <form class="header__form" id="form">
+          <input class="header__massage" type="text" id="polz_tel" name="polz_tel" placeholder="Введите Ваш номер">
+          <label class="sr-only" for="#">Введите Ваш номер </label>
+
+          <input class="header__massage" type="text" id="polz_name" name="polz_name" placeholder="Введите Ваше Имя">
+          <label class="sr-only" for="#">Введите Ваше Имя</label>
+
+          <input class="call" type="submit" value="Заказать звонок">
+          <label class="sr-only" for="#">Заказать звонок</label>
+
+          <p class="check-text" required>Нажимая на кнопку "Заказать звонок" Вы даёте согласие о обработке
+            <a class="check-text__link " href="personalnieDanye.html">персональных данных.</a>
+          </p>
+          <div class="form_result">
+            
+          </div>
+        </form>
+      </div>
+
+      <div class="gradient">
+        <nav class="container">
+          <ul class="header__list-nav">
+            <li class="header__item-nav">
+              <a class="link" href="index.html">Главная</a>
+            </li>
+
+            <li class="header__item-nav insurance">
+              <a class="link arrow" id="insurance">Страхование</a>
+
+              <ul class="insurance__list ">
+                <li class="insurance__item">
+                  <a class="link" href="osago.html">ОСАГО</a>
+                </li>
+                <li class="insurance__item">
+                  <a class="link" href="kasko.html">КАСКО</a>
+                </li>
+                <li class="insurance__item">
+                  <a class="link" href="dosago.html">ДСАГО</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__item-nav service">
+              <a class="link arrow" id="service">Дополнительные услуги</a>
+
+              <ul class="service__list">
+                <li class="service__item">
+                  <a class="link" href="contract.html">Договора купли-продажи</a>
+                </li>
+
+                <li class="service__item">
+                  <a class="link" href="application.html">Заявления на регистрацию ТС</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="header__item-nav">
+              <a class="link" href="dubleNumber.html">Дубликаты гос. номеров</a>
+            </li>
+
+            <!-- <li class="header__item-nav">
+              <a class="link" href="#">Отзывы</a>
+            </li> -->
+
+
+            <li class="header__item-nav">
+              <a class="link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <img class="main__image-car" src="img/car.jpg" alt="">
+
+      <section class="main__info padding">
+        <h1 class="sr-only">Страховой полис - ОСАГО</h1>
+
+        <div class="container">
+          <h1 class="main__info-h1">Страховой полис - ОСАГО</h1>
+
+        <p class="main__info-text">Полис ОСАГО обязан иметь каждый
+          владелец транспортного средства. Но оформить его в страховой
+          компании может не только собственник, но и водитель, управляющий
+          машиной по его согласию (собственника ТС в этом случае впишут в
+          графу «Собственник»,
+          а человека, заключившего договор ОСАГО, — в графу «Страхователь»).
+          <br>
+          <br>
+          Оформить страховку надо в течение 10 дней с того момента,
+          как вы стали владельцем автомобиля, мотоцикла или самоходной
+          техники, но обязательно до постановки ТС на государственный учет
+          в Госавтоинспекции или Гостехнадзоре — без долгосрочного полиса
+          ОСАГО его просто не поставят на учет. Затем вам нужно заблаговременно
+          либо продлевать договор с выбранной страховой,
+          либо заключать новый с другой.
+          <br>
+          <br>
+          Для заключения договора ОСАГО вам понадобятся
+          (по договоренности со страховой компанией вы можете
+          предъявить как оригиналы, так и электронные копии документов):
+          <ul class="document__list">
+            <li class="document__item">
+              заявление (заполняется лично в страховой компании);
+            </li>
+            <li class="document__item">
+              паспорт или иное удостоверение личности владельца ТС;
+            </li>
+            <li class="document__item">
+              документ о регистрации указанного в заявлении
+              транспортного средства (паспорт ТС или паспорт самоходной
+              машины, свидетельство о регистрации ТС или свидетельство о
+              регистрации машины), за исключением случаев, когда речь идет
+              о новом ТС. После того как вы поставите технику на постоянный
+              учет и получите технический паспорт, вам надо будет известить
+              страховщика о том, что транспортное средство находится на постоянном
+              учете в органах ГИБДД или Гостехнадзора;
+            </li>
+            <li class="document__item">
+              документ, подтверждающий право собственности на ТС
+              (если транспортное средство не зарегистрировано) или
+              документ, подтверждающий право владения ТС
+              (если транспортное средство взято в аренду);
+            </li>
+            <li class="document__item">
+              водительское удостоверение или удостоверение
+              тракториста-машиниста (тракториста) владельца ТС и
+              при необходимости лиц, которые будут допущены к управлению
+              (только для оформления закрытой страховки);
+            </li>
+            <li class="document__item">
+              диагностическая карта с отметкой о прохождении технического
+              осмотра (для ТС старше 3 лет) или свидетельство о прохождении
+              технического осмотра тракторов, самоходных дорожно-строительных
+              и иных машин;
+            </li>
+            <li class="document__item">
+              предыдущий полис обязательного страхования (при наличии).
+            </li>
+          </ul>
+        </p>
+        </div>
+      </section>
+
+      <section class="main__cost padding">
+        <h2 class="sr-only">Стоимость страховки</h2>
+
+        <div class="container">
+          <h2 class="main__cost-h2">Стоимость полиса ОСАГО зависит от:</h2>
+
+          <ul class="document__list">
+            <li class="document__item">Мощности транспортного</li>
+
+            <li class="document__item">Регион регистрации автомобиля</li>
+
+            <li class="document__item">Возраст и водительский стаж водителя</li>
+
+            <li class="document__item">Количество аварий</li>
+
+            <li class="document__item">Число водителей</li>
+
+            <li class="document__item">Срок действия полиса</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+    <script
+     type="text/javascript"
+     charset="utf-8"
+     async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af4aa542b49ca1e2954655a4ce6cdd3b38916e700653f99c0b2359242a5beed51&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true">
+    </script>
+
+     <div class="footer__wrapper container padding">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="link" href="index.html">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="kasko.html">КАСКО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="osago.html">ОСАГО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="dosago.html">ДОСАГО</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="contract.html">Договора купли-продажи</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="application.html">Заявления на регистрацию</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="dubleNumber.html">Дубликаты гос. номеров</a>
+          </li>
+          <li class="footer__item">
+            <a class="link" href="#contact">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer__info">
+        <li>ООО "Эталон"</li>
+        <li>ИНН: 3123348040</li>
+        <li>ОГРН: 1143123012361</li>
+        <li>КПП: 312301001</li>
+        <li>ОКТМО: 1470100001</li>
+        <li>ОКПО: 22260397</li>
+        <li>ОКАТО: 14401370000</li>
+        <li>ОКФС: 16</li>
+        <li>ОКОПФ: 12165</li>
+        <li>Страховка Шебекино @2010-2021</li>
+      </ul>
+
+      <address class="header__address fon" id="contact">
+        <ul class="header__list-address">
+          <li class="header__item-address">
+            <a class="link" href="tel:89040889229">+7 (904) 088-92-29</a>
+            <p class=""> г. Шебекино, ТЦ Спутник, модуль 102</p>
+          </li>
+
+          <li class="header__item-address">
+            <a class="link" href="tel:89511303003">+7 (951) 130-30-03</a>
+            <p class=""> г. Шебекино, ул. Московская д.45 (район рынка)</p>
+          </li>
+
+          <li class="header__item-address">
+            <a class="link" href="tel:89511303003">+7 (951) 761-13-31</a>
+            <p class="">г. Шебекино, ул. Московская 16 а</p>
+          </li>
+      </ul>
+    </address>
+     </div>
+    </footer>
+  </body>
+</html>
+

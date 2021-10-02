@@ -1,0 +1,430 @@
+
+  @font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-Rounded-Light.ttf') format('.ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Plumb';
+  src: url('../fonts/Plumb.ttf') format('.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box; /*Применяется для изменения алгоритма расчёта ширины и высоты элемента.*/
+}
+ *,
+ *::before,
+ *::after {
+  box-sizing: inherit; /*наследует значение родителя*/
+ }
+
+body {
+  min-width: 1920px; /*Минимальная ширина*/
+  /* font-family: 'Nunito Sans', sans-serif; */
+  margin: 0; /*Внешний отступ*/
+  background-color: #fff ;/*Цвет фона*/
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+ }
+
+
+
+img {
+  max-width: 100%; /*Максимальная ширина*/
+  height: auto;
+  object-fit: contain;
+}
+
+
+a {
+  text-decoration: none; /*Оформление текста.Отменяет все эффекты, в том числе и подчёркивание у ссылок, которое задано по умолчанию.*/
+  color: inherit; /*Цвет текста наследуется*/
+}
+
+a:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.container {
+  width: 1655px;
+  margin: 0 auto;
+}
+
+.container-header {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+
+/* header */
+
+.header {
+  background: url('../img/bgc.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.border {
+  border-bottom: 1px solid #eae6e6;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px 0;
+  align-items: center;
+}
+
+.logo {
+  margin-right:312px;
+}
+
+.header-nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 145px;
+}
+
+.header-nav-ul-li {
+  margin-left: 46px;
+}
+
+.header-nav-link {
+  font-weight: 300;
+}
+
+.header-form {
+  position: relative;
+}
+
+.header-form-input {
+  margin-right: 70px;
+  border-radius: 40px;
+  width: 210px;
+  border: none;
+  background-color: #eae6e6;
+  padding: 5px 35px 5px 10px;
+}
+
+.button-search {
+  top: 7px;
+  left: 180px;
+  position: absolute;
+  border: none;
+  background: transparent url('../img/search.png') no-repeat;
+  background-size: contain;
+  padding: 8px;
+}
+
+.header-form-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #fff;
+  padding-left: 30px;
+  border: none;
+  line-height: 30px;
+  background: url('../img/globe.png') no-repeat;
+}
+
+.section-expoforum {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-expoforum-article {
+  margin-top: 184px;
+  margin-right: 94px;
+}
+
+.h1 {
+ font-size: 64px;
+ margin: 0 0 35px 0;
+}
+
+.section-expoforum-article-p {
+  margin: 0 0 25px 0;
+  font-size: 24px;
+  width: 324px;
+}
+
+.next-link {
+  margin: 15px 0 0 0 ;
+  font-size: 14px;
+  background: url('../img/arrow.png') no-repeat right;
+  padding: 0 30px 0 0;
+}
+
+.section-expoforum-ul {
+  margin-top: 304px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+}
+
+.section-expoforum-li {
+  width: 255px;
+  padding: 30px 40px;
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+
+.section-expoforum-li:not(:nth-child(2n)) {
+  margin-right: 30px;
+}
+
+.blue {
+  background-color: #2378FC;
+}
+
+.blue-white {
+  background-color: #30BCC9;
+}
+
+.yellow {
+  background-color: #FFC41E;
+}
+
+.red {
+  background-color: #F6404F;
+}
+
+/* main */
+
+.main {
+
+}
+
+/* section-one */
+
+.section-one {
+  background-color: #2378FC;
+  color: #fff;
+  padding: 75px 0;
+}
+
+.section-one-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-one-ul {
+  width: 190px;
+}
+
+.section-one-ul:not(:last-child) {
+  margin: 0 120px 0 0;
+}
+
+.section-one-li-h2 {
+  margin: 0 0 30px 0;
+}
+
+.section-one-h2 {
+  margin: 0 0 0 0;
+}
+
+.section-one-li {
+  margin: 0 0 15px 0 ;
+}
+
+.section-one-link:hover{
+  border-bottom: 1px solid #FFC41E;
+  color: #FFC41E;
+}
+
+.section-one-link {
+
+}
+
+/* section-two */
+
+.section-two {
+  background-color: #FFC41E;
+}
+
+.section-two-div {
+  padding: 75px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.section-two-h2 {
+  margin: 0 450px 0 0;
+  font-size: 30px;
+}
+
+.section-two-link {
+  font-size: 21px;
+  padding-right: 40px;
+  background: url('../img/arrow-black.png') no-repeat right;
+}
+
+
+.section-two-ul {
+  margin: 55px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-two-li {
+  margin-bottom: 25px;
+}
+
+.section-two-li:not(:nth-child(3n)) {
+  margin-right:30px;
+}
+
+.section-two-div-two {
+  padding: 0 0 5px 0;
+}
+
+.section-two-li-span {
+  font-size: 14px;
+  color: #2E373B;
+}
+
+.section-two-text {
+  color: #2E373B;
+}
+
+.section-two-li-h3 {
+  margin: 10px 0 10px 0;
+  font-size: 21px;
+  color: #F6404F;
+}
+
+
+/* section-three */
+
+
+.section-three {
+  padding: 75px 0 85px 0;
+}
+
+.section-three-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-three-ul:not(:last-child) {
+  margin: 0 125px 0 0;
+}
+
+.section-three-li {
+  margin: 0 0 60px 0;
+}
+
+.section-three-article .section-two-h2 {
+  margin: 0 272px 30px 0;
+  display: inline-block;
+}
+
+
+
+.section-three-li-two {
+  align-items: center;
+  display: flex;
+  margin: 0 0 30px 0;
+}
+
+.section-three-img {
+  margin-right: 30px;
+}
+
+.time {
+  display: inline-block;
+  color: #F6404F;
+}
+
+.section-two-p {
+  width: 340px;
+  color: #2E373B;
+  font-size: 21px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #30BCC9;
+  color: #fff;
+  padding: 70px 0 0 0;
+}
+
+.address {
+  font-style: normal;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social .section-one-li {
+  margin-right: 25px;
+}
+
+.address .section-one-h2 {
+  margin: 0 0 30px 0;
+}
+
+.social .section-one-link {
+ padding-right: 30px;
+ padding-top: 5px;
+}
+
+.youtobe {
+  background: url('../img/youtobe.png') no-repeat;
+  background-size: contain;
+}
+
+.vk {
+  background: url('../img/vk.png') no-repeat;
+  background-size: contain;
+}
+
+
+.facebook {
+  background: url('../img/facebook.png') no-repeat;
+  background-size: contain;
+}
+
+
+.instagram {
+  background: url('../img/instagram.png') no-repeat;
+  background-size: contain;
+}
+
